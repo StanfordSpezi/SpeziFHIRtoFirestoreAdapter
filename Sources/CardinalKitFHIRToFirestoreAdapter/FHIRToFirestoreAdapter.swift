@@ -9,8 +9,8 @@
 import CardinalKit
 import CardinalKitFHIR
 import CardinalKitFirestore
-import ModelsR4
 import Foundation
+import ModelsR4
 
 
 /// Adapts the output of the `FHIR` standard to be used with the `Firestore` data storage provider.

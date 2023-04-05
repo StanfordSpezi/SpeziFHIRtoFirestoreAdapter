@@ -7,8 +7,8 @@
 //
 
 import CardinalKit
-import CardinalKitFHIRToFirestoreAdapter
 @preconcurrency import CardinalKitFHIR
+import CardinalKitFHIRToFirestoreAdapter
 import CardinalKitFirestore
 import SwiftUI
 
