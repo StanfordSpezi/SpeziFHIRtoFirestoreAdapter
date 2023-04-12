@@ -612,7 +612,7 @@
 			repositoryURL = "https://github.com/StanfordBDHG/CardinalKitFHIR.git";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 0.1.0;
+				minimumVersion = 0.2.1;
 			};
 		};
 		2F61BDB729DCCF1C00D71D33 /* XCRemoteSwiftPackageReference "CardinalKitFirebase" */ = {
@@ -620,15 +620,15 @@
 			repositoryURL = "https://github.com/StanfordBDHG/CardinalKitFirebase.git";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 0.1.0;
+				minimumVersion = 0.2.0;
 			};
 		};
 		2F9F4D6729B6AD7100ABE259 /* XCRemoteSwiftPackageReference "CardinalKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/StanfordBDHG/CardinalKit.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.3.5;
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.4.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
