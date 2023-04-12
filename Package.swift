@@ -20,10 +20,10 @@ let package = Package(
         .library(name: "CardinalKitFHIRToFirestoreAdapter", targets: ["CardinalKitFHIRToFirestoreAdapter"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/FHIRModels", .upToNextMinor(from: "0.4.0")),
-        .package(url: "https://github.com/StanfordBDHG/CardinalKit", .upToNextMinor(from: "0.3.5")),
-        .package(url: "https://github.com/StanfordBDHG/CardinalKitFHIR", .upToNextMinor(from: "0.1.0")),
-        .package(url: "https://github.com/StanfordBDHG/CardinalKitFirebase", .upToNextMinor(from: "0.1.0"))
+        .package(url: "https://github.com/apple/FHIRModels", .upToNextMinor(from: "0.5.0")),
+        .package(url: "https://github.com/StanfordBDHG/CardinalKit", .upToNextMinor(from: "0.4.1")),
+        .package(url: "https://github.com/StanfordBDHG/CardinalKitFHIR", .upToNextMinor(from: "0.2.1")),
+        .package(url: "https://github.com/StanfordBDHG/CardinalKitFirebase", .upToNextMinor(from: "0.2.0"))
     ],
     targets: [
         .target(
