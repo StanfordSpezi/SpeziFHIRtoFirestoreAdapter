@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CardinalKitFHIRToFirestoreAdapter"
-               BuildableName = "CardinalKitFHIRToFirestoreAdapter"
-               BlueprintName = "CardinalKitFHIRToFirestoreAdapter"
+               BlueprintIdentifier = "SpeziFHIRToFirestoreAdapter"
+               BuildableName = "SpeziFHIRToFirestoreAdapter"
+               BlueprintName = "SpeziFHIRToFirestoreAdapter"
                ReferencedContainer = "container:../..">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,9 +33,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CardinalKitFHIRToFirestoreAdapterTests"
-               BuildableName = "CardinalKitFHIRToFirestoreAdapterTests"
-               BlueprintName = "CardinalKitFHIRToFirestoreAdapterTests"
+               BlueprintIdentifier = "SpeziFHIRToFirestoreAdapterTests"
+               BuildableName = "SpeziFHIRToFirestoreAdapterTests"
+               BlueprintName = "SpeziFHIRToFirestoreAdapterTests"
                ReferencedContainer = "container:../..">
             </BuildableReference>
          </TestableReference>
@@ -61,9 +61,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CardinalKitFHIRToFirestoreAdapter"
-            BuildableName = "CardinalKitFHIRToFirestoreAdapter"
-            BlueprintName = "CardinalKitFHIRToFirestoreAdapter"
+            BlueprintIdentifier = "SpeziFHIRToFirestoreAdapter"
+            BuildableName = "SpeziFHIRToFirestoreAdapter"
+            BlueprintName = "SpeziFHIRToFirestoreAdapter"
             ReferencedContainer = "container:../..">
          </BuildableReference>
       </MacroExpansion>

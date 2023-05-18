@@ -31,9 +31,9 @@
       <CodeCoverageTargets>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CardinalKitFHIRToFirestoreAdapterTests"
-            BuildableName = "CardinalKitFHIRToFirestoreAdapterTests"
-            BlueprintName = "CardinalKitFHIRToFirestoreAdapterTests"
+            BlueprintIdentifier = "SpeziFHIRToFirestoreAdapterTests"
+            BuildableName = "SpeziFHIRToFirestoreAdapterTests"
+            BlueprintName = "SpeziFHIRToFirestoreAdapterTests"
             ReferencedContainer = "container:../..">
          </BuildableReference>
       </CodeCoverageTargets>

@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F61BDB329DCCE8600D71D33 /* CardinalKitFHIRToFirestoreAdapter in Frameworks */ = {isa = PBXBuildFile; productRef = 2F61BDB229DCCE8600D71D33 /* CardinalKitFHIRToFirestoreAdapter */; };
-		2F61BDB629DCCEE600D71D33 /* CardinalKitFHIR in Frameworks */ = {isa = PBXBuildFile; productRef = 2F61BDB529DCCEE600D71D33 /* CardinalKitFHIR */; };
-		2F61BDB929DCCF1C00D71D33 /* CardinalKitFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2F61BDB829DCCF1C00D71D33 /* CardinalKitFirestore */; };
+		2F61BDB329DCCE8600D71D33 /* SpeziFHIRToFirestoreAdapter in Frameworks */ = {isa = PBXBuildFile; productRef = 2F61BDB229DCCE8600D71D33 /* SpeziFHIRToFirestoreAdapter */; };
+		2F61BDB629DCCEE600D71D33 /* SpeziFHIR in Frameworks */ = {isa = PBXBuildFile; productRef = 2F61BDB529DCCEE600D71D33 /* SpeziFHIR */; };
+		2F61BDB929DCCF1C00D71D33 /* SpeziFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2F61BDB829DCCF1C00D71D33 /* SpeziFirestore */; };
 		2F61BDBC29DCFBD400D71D33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F61BDBA29DCFBD400D71D33 /* GoogleService-Info.plist */; };
 		2F6D139A28F5F386007C25D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F6D139928F5F386007C25D6 /* Assets.xcassets */; };
 		2F8A431329130A8C005D2B8F /* TestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8A431229130A8C005D2B8F /* TestAppUITests.swift */; };
@@ -30,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		2F61BDBA29DCFBD400D71D33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2F68C3C6292E9F8F00B3E12C /* CardinalKitFHIRToFirestoreAdapterTests */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CardinalKitFHIRToFirestoreAdapterTests; path = ../..; sourceTree = "<group>"; };
+		2F68C3C6292E9F8F00B3E12C /* SpeziFHIRToFirestoreAdapterTests */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SpeziFHIRToFirestoreAdapterTests; path = ../..; sourceTree = "<group>"; };
 		2F6D139228F5F384007C25D6 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F6D139928F5F386007C25D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F6D13AC28F5F386007C25D6 /* TestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,9 +46,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F61BDB629DCCEE600D71D33 /* CardinalKitFHIR in Frameworks */,
-				2F61BDB929DCCF1C00D71D33 /* CardinalKitFirestore in Frameworks */,
-				2F61BDB329DCCE8600D71D33 /* CardinalKitFHIRToFirestoreAdapter in Frameworks */,
+				2F61BDB629DCCEE600D71D33 /* SpeziFHIR in Frameworks */,
+				2F61BDB929DCCF1C00D71D33 /* SpeziFirestore in Frameworks */,
+				2F61BDB329DCCE8600D71D33 /* SpeziFHIRToFirestoreAdapter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				2FB0758A299DDB9000C0B37F /* TestApp.xctestplan */,
-				2F68C3C6292E9F8F00B3E12C /* CardinalKitFHIRToFirestoreAdapterTests */,
+				2F68C3C6292E9F8F00B3E12C /* SpeziFHIRToFirestoreAdapterTests */,
 				2F6D139428F5F384007C25D6 /* TestApp */,
 				2F6D13AF28F5F386007C25D6 /* TestAppUITests */,
 				2F6D139328F5F384007C25D6 /* Products */,
@@ -127,9 +127,9 @@
 			);
 			name = TestApp;
 			packageProductDependencies = (
-				2F61BDB229DCCE8600D71D33 /* CardinalKitFHIRToFirestoreAdapter */,
-				2F61BDB529DCCEE600D71D33 /* CardinalKitFHIR */,
-				2F61BDB829DCCF1C00D71D33 /* CardinalKitFirestore */,
+				2F61BDB229DCCE8600D71D33 /* SpeziFHIRToFirestoreAdapter */,
+				2F61BDB529DCCEE600D71D33 /* SpeziFHIR */,
+				2F61BDB829DCCF1C00D71D33 /* SpeziFirestore */,
 			);
 			productName = Example;
 			productReference = 2F6D139228F5F384007C25D6 /* TestApp.app */;
@@ -184,9 +184,9 @@
 			);
 			mainGroup = 2F6D138928F5F384007C25D6;
 			packageReferences = (
-				2F9F4D6729B6AD7100ABE259 /* XCRemoteSwiftPackageReference "CardinalKit" */,
-				2F61BDB429DCCEE600D71D33 /* XCRemoteSwiftPackageReference "CardinalKitFHIR" */,
-				2F61BDB729DCCF1C00D71D33 /* XCRemoteSwiftPackageReference "CardinalKitFirebase" */,
+				2F9F4D6729B6AD7100ABE259 /* XCRemoteSwiftPackageReference "Spezi" */,
+				2F61BDB429DCCEE600D71D33 /* XCRemoteSwiftPackageReference "SpeziFHIR" */,
+				2F61BDB729DCCF1C00D71D33 /* XCRemoteSwiftPackageReference "SpeziFirebase" */,
 			);
 			productRefGroup = 2F6D139328F5F384007C25D6 /* Products */;
 			projectDirPath = "";
@@ -383,7 +383,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cardinalkit.fhirtofirestoreadapter.testapp;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.spezi.fhirtofirestoreadapter.testapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_STRICT_CONCURRENCY = complete;
@@ -414,7 +414,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cardinalkit.fhirtofirestoreadapter.testapp;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.spezi.fhirtofirestoreadapter.testapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_STRICT_CONCURRENCY = complete;
@@ -432,7 +432,7 @@
 				DEVELOPMENT_TEAM = 637867499T;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cardinalkit.healthkittofhiradapter.testappuitests;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.spezi.fhirtofirestoreadapter.testappuitests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -451,7 +451,7 @@
 				DEVELOPMENT_TEAM = 637867499T;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cardinalkit.healthkittofhiradapter.testappuitests;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.spezi.fhirtofirestoreadapter.testappuitests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -543,7 +543,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cardinalkit.fhirtofirestoreadapter.testapp;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.spezi.fhirtofirestoreadapter.testapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_STRICT_CONCURRENCY = complete;
@@ -561,7 +561,7 @@
 				DEVELOPMENT_TEAM = 637867499T;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cardinalkit.healthkittofhiradapter.testappuitests;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.spezi.fhirtofirestoreadapter.testappuitests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -607,46 +607,46 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2F61BDB429DCCEE600D71D33 /* XCRemoteSwiftPackageReference "CardinalKitFHIR" */ = {
+		2F61BDB429DCCEE600D71D33 /* XCRemoteSwiftPackageReference "SpeziFHIR" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/StanfordBDHG/CardinalKitFHIR.git";
+			repositoryURL = "https://github.com/StanfordSpezi/SpeziFHIR.git";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 0.2.1;
+				minimumVersion = 0.3.0;
 			};
 		};
-		2F61BDB729DCCF1C00D71D33 /* XCRemoteSwiftPackageReference "CardinalKitFirebase" */ = {
+		2F61BDB729DCCF1C00D71D33 /* XCRemoteSwiftPackageReference "SpeziFirebase" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/StanfordBDHG/CardinalKitFirebase.git";
+			repositoryURL = "https://github.com/StanfordSpezi/SpeziFirebase.git";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 0.2.0;
+				minimumVersion = 0.3.0;
 			};
 		};
-		2F9F4D6729B6AD7100ABE259 /* XCRemoteSwiftPackageReference "CardinalKit" */ = {
+		2F9F4D6729B6AD7100ABE259 /* XCRemoteSwiftPackageReference "Spezi" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/StanfordBDHG/CardinalKit.git";
+			repositoryURL = "https://github.com/StanfordSpezi/Spezi.git";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 0.4.1;
+				minimumVersion = 0.5.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2F61BDB229DCCE8600D71D33 /* CardinalKitFHIRToFirestoreAdapter */ = {
+		2F61BDB229DCCE8600D71D33 /* SpeziFHIRToFirestoreAdapter */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = CardinalKitFHIRToFirestoreAdapter;
+			productName = SpeziFHIRToFirestoreAdapter;
 		};
-		2F61BDB529DCCEE600D71D33 /* CardinalKitFHIR */ = {
+		2F61BDB529DCCEE600D71D33 /* SpeziFHIR */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2F61BDB429DCCEE600D71D33 /* XCRemoteSwiftPackageReference "CardinalKitFHIR" */;
-			productName = CardinalKitFHIR;
+			package = 2F61BDB429DCCEE600D71D33 /* XCRemoteSwiftPackageReference "SpeziFHIR" */;
+			productName = SpeziFHIR;
 		};
-		2F61BDB829DCCF1C00D71D33 /* CardinalKitFirestore */ = {
+		2F61BDB829DCCF1C00D71D33 /* SpeziFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2F61BDB729DCCF1C00D71D33 /* XCRemoteSwiftPackageReference "CardinalKitFirebase" */;
-			productName = CardinalKitFirestore;
+			package = 2F61BDB729DCCF1C00D71D33 /* XCRemoteSwiftPackageReference "SpeziFirebase" */;
+			productName = SpeziFirestore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

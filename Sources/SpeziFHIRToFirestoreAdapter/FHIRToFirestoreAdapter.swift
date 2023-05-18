@@ -1,23 +1,23 @@
 //
-// This source file is part of the CardinalKit open-source project
+// This source file is part of the Stanford Spezi open-source project.
 //
 // SPDX-FileCopyrightText: 2022 Stanford University and the project authors (see CONTRIBUTORS.md)
 //
 // SPDX-License-Identifier: MIT
 //
 
-import CardinalKit
-import CardinalKitFHIR
-import CardinalKitFirestore
 import Foundation
 import ModelsR4
+import Spezi
+import SpeziFHIR
+import SpeziFirestore
 
 
 /// Adapts the output of the `FHIR` standard to be used with the `Firestore` data storage provider.
 ///
-/// Use the ``FHIRToFirestoreAdapter`` in the adapter result builder of the `Firestore` data storage provider in the CardinalKit `Configuration`.
+/// Use the ``FHIRToFirestoreAdapter`` in the adapter result builder of the `Firestore` data storage provider in the Spezi `Configuration`.
 /// ```swift
-/// class ExampleAppDelegate: CardinalKitAppDelegate {
+/// class ExampleAppDelegate: SpeziAppDelegate {
 ///     override var configuration: Configuration {
 ///         Configuration(standard: FHIR()) {
 ///             Firestore {
